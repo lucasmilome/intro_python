@@ -1,2 +1,0 @@
-def tabuada():
-    pass
