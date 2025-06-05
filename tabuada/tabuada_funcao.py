@@ -6,7 +6,7 @@ console = Console()
 
 def calcular_tabuada(numero, operacao) -> Table:
     limpar_tela()
-    """Função de Tabuada."""
+  
     table = Table(title=f'Tabuada do {numero}: ({operacao})', show_lines=True, title_justify="center")
     table.add_column("Operação", justify="center", style='cyan')
     table.add_column("Resultado", justify="center", style='magenta')
